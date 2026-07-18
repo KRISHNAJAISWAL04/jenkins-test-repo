@@ -6,7 +6,7 @@ app = FastAPI()
 @app.get("/")
 def home():
     return {
-        "message": "Hello from Docker + Terraform + FastAPI + Jenkins",
+        "message": "Hello from Docker + Terraform + FastAPI + Jenkins ",
         "author": "Krishna Jaiswal",
         "project": " my Portfolio"
     }
